@@ -14,6 +14,22 @@ from qiime2.plugins.diversity_lib.methods import weighted_unifrac, unweighted_un
 #WOL2 Taxonomy
 wol2_taxonomy = q2.Artifact.import_data('Phylogeny[Rooted]', '/Users/cguccion/Dropbox/Storage/HelpfulLabDocs/taxonomy_trees/WOL2/tree.nwk')
 
+'''
+Helper functions used to calculate basic
+beta diversity
+'''
+
+import pandas as pd
+
+import qiime2 as q2
+from qiime2 import Artifact, Metadata
+from qiime2.plugins.feature_table.methods import rarefy
+from qiime2.plugins import diversity
+from qiime2.plugins.diversity_lib.methods import weighted_unifrac, unweighted_unifrac
+
+#WOL2 Taxonomy
+wol2_taxonomy = q2.Artifact.import_data('Phylogeny[Rooted]', '/Users/cguccion/Dropbox/Storage/HelpfulLabDocs/taxonomy_trees/WOL2/tree.nwk')
+
 def table_prep(table, rarefaction=None):
 
     '''Convert data into qiime2 objects
@@ -187,16 +203,11 @@ def all_beta(table_genome_rs210, table_genome_wol2, meta, rarefaction, metric, p
     #WOL2 Non-Rare
     ft_genome_wol2 = table_prep(table_genome_wol2)
     
-    #RS210 Rare
-    ft_genome_rs210_rare = table_prep(table_genome_rs210, rarefaction=rarefaction)
-    
     #WOL2 Rare
     ft_genome_wol2_rare = table_prep(table_genome_wol2, rarefaction=rarefaction)
     
     
     ##Call all combinations of Beta Diversity##
-    
-    rs210_uwUni_genome, rs210_wUni_genome = beta_unifraq(ft_genome_rs210_rare, sample_meta, metric, permutations)
     
     rs210_rpca_genome = beta_decoide(ft_genome_rs210, sample_meta, metric, permutations)
     
@@ -204,6 +215,4 @@ def all_beta(table_genome_rs210, table_genome_wol2, meta, rarefaction, metric, p
     
     wol2_rpca_genome = beta_decoide(ft_genome_wol2, sample_meta, metric, permutations)
     
-    return(rs210_uwUni_genome, rs210_wUni_genome, rs210_rpca_genome,
-          wol2_uwUni_genome, wol2_wUni_genome, wol2_rpca_genome)
-    
+    return(rs210_rpca_genome, wol2_uwUni_genome, wol2_wUni_genome, wol2_rpca_genome)
