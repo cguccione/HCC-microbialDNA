@@ -8,5 +8,23 @@
 
 
 ----
+### Host Depletion
+Host deplete all samples with 47 Pangenomes from the Human Pangenome Project, T2T-CHM13v2.0, GRCh38.p14 and PhiX ([Host Depletion Repo](https://github.com/cguccione/human_host_depletion))
+- *Input*: Raw fastq files with mixed microbial and human reads
+- *Output*: Fastq files with just microbial reads
 
+### Microbial Classification
+Run SHOGUN + Woltka pipeline using RS210 and WoLr2 databases on Qiita (Study [13756](https://qiita.ucsd.edu/study/description/13756#), Prep 16010)
+- *Input*: Fastq files with just microbial reads
+- *Output*: Biom/taxonomy table for all samples including blanks
+
+### Remove any lab-associated contamination
+Run [SCRuB](https://www.nature.com/articles/s41587-023-01696-w) to remove any lab associated contamination: [1_SCRuB_Decontamination.ipynb](https://github.com/cguccione/HCC-microbialDNA/blob/main/1_SCRuB_Decontamination.ipynb)
+- *Input*: Biom/taxonomy table for all samples including blanks
+- *Output*: Decontaminated biom/taxonomy table for all biological samples
+
+### Remove any falsely mapped reads
+[Zebra](https://journals.asm.org/doi/full/10.1128/msystems.00758-22) to remove any reads which may have been incorrectly mapped: [2_Zebra_Coverage.ipynb](https://github.com/cguccione/HCC-microbialDNA/blob/main/2_Zebra_Coverage.ipynb)
+- *Input*: Decontaminated biom/taxonomy table for all biological sample
+- *Output*: Decontaminated biom/taxonomy table for all biological samples with extraneous reads removed
 
