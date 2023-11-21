@@ -37,3 +37,8 @@ Beta diversity analysis using [Qiime2](https://qiime2.org)
 Feature selection using WoLr2, RPCA, Genome across disease groups. Machine learning to split between groups was not very successful due to small group sizes but in script as well. 
 - *Input*: Decontaminated biom/taxonomy table for all biological samples with extraneous reads removed
 - *Output*: Top microbial features according to Chi2 and Random Forest
+
+### Birdman
+Performing differential abundance using WoLr2, RPCA, Genome data across disease groups data using [Birdman](https://birdman.readthedocs.io/en/latest/).
+- *Input*: Decontaminated biom/taxonomy table for all biological samples with extraneous reads removed
+- *Output*: Top microbial features according to Birdman
