@@ -13,7 +13,7 @@ Host deplete all samples with 47 Pangenomes from the Human Pangenome Project, T2
 - *Output*: Fastq files with just microbial reads
 
 ### Microbial Classification
-Run SHOGUN + Woltka pipeline using RS210 and WoLr2 databases on Qiita (Study [13756](https://qiita.ucsd.edu/study/description/13756#), Prep 16010)
+Run SHOGUN + Woltka pipeline using RS210 and WoLr2 databases on Qiita (Study [15336](https://qiita.ucsd.edu/study/description/15336#), Prep 16181)
 - *Input*: Fastq files with just microbial reads
 - *Output*: Biom/taxonomy table for all samples including blanks
 
