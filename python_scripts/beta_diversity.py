@@ -314,6 +314,26 @@ def rare_multiplier(df_wol2_uwUni_genome, df_wol2_wUni_genome, df_wol2_rpca_rare
     
     return(df_wol2_uwUni_genome, df_wol2_wUni_genome, df_wol2_rpca_rare_genome, df_rs210_rpca_rare_genome)
 
+def rare_multiplier_species(df_wol2_rpca_rare_genome, df_rs210_rpca_rare_genome, table_genome_rs210, table_genome_wol2,
+                    meta, rarefaction, metric, decoide_min_feature_count, permutations=999):
+    
+    #Convert meta to q2 object
+    sample_meta = q2.Metadata(meta.set_index('sample_name'))
+    
+    #Rare Tables
+    ft_genome_rs210_rare = table_prep(table_genome_rs210, rarefaction=rarefaction)
+    ft_genome_wol2_rare = table_prep(table_genome_wol2, rarefaction=rarefaction)
+    
+    
+    #Rarefied RPCA
+    wol2_rpca_rare_genome = beta_decoide(ft_genome_wol2_rare, meta, metric, permutations, decoide_min_feature_count)
+    rs210_rpca_rare_genome = beta_decoide(ft_genome_rs210_rare, meta, metric, permutations, decoide_min_feature_count)
+    
+    df_wol2_rpca_rare_genome = rare_helper(wol2_rpca_rare_genome, df_wol2_rpca_rare_genome)
+    df_rs210_rpca_rare_genome = rare_helper(rs210_rpca_rare_genome, df_rs210_rpca_rare_genome)
+    
+    return(df_wol2_rpca_rare_genome, df_rs210_rpca_rare_genome)
+
 def alpha_rare_curve(table, max_depth, meta):
     
     q2_meta = Metadata(meta) 
@@ -321,3 +341,78 @@ def alpha_rare_curve(table, max_depth, meta):
     alph_vis = alpha_rarefaction(table = table, max_depth = max_depth, metadata = q2_meta)
     
     return(alph_vis)
+
+
+def all_beta_species(table_genome_rs210, table_genome_wol2, meta, rarefaction, metric, permutations=999, numRares=10, decoide_min_feature_count=10):
+    
+    '''Convert data into qiime2 objects
+    and rarefy if needed
+
+    Parameters
+    ---------
+    table: pandas df
+        Taxonomy table of samples and 
+        corresponding microbial abudances
+        
+    meta: pandas df
+        Metadata for samples in table
+    
+    rarefaction(optional): int
+        Level to rarefy table to
+    
+    Returns
+    -------
+    ft: q2 FeatureTable[Frequency] object
+        Qiime2 taxonomy object
+    
+    sample_meta: q2 Metadata Object
+        Qiime2 metadata object
+    
+    Notes
+    -----
+    '''
+    
+    #Convert meta to q2 object
+    sample_meta = q2.Metadata(meta.set_index('sample_name'))
+    
+    ##Create all Q2 Tables needed for Calculations##
+    
+    #RS210 Non-Rare
+    ft_genome_rs210 = table_prep(table_genome_rs210)
+    
+    #WOL2 Non-Rare
+    ft_genome_wol2 = table_prep(table_genome_wol2)
+    
+    ##Call all combinations of Beta Diversity##
+    
+    rs210_rpca_genome = beta_decoide(ft_genome_rs210, meta, metric, permutations, decoide_min_feature_count)
+    
+    wol2_rpca_genome = beta_decoide(ft_genome_wol2, meta, metric, permutations, decoide_min_feature_count)
+    
+    #Rarifed samples should be run 10x times and averaged
+    
+    #Create df to store averages across runs
+    df_wol2_uwUni_genome = pd.DataFrame(columns = ['p-value', 'pseudo-F', 'Sample Size'])
+    df_wol2_wUni_genome = pd.DataFrame(columns = ['p-value', 'pseudo-F', 'Sample Size'])
+    df_wol2_rpca_rare_genome = pd.DataFrame(columns = ['p-value', 'pseudo-F', 'Sample Size'])
+    df_rs210_rpca_rare_genome = pd.DataFrame(columns = ['p-value', 'pseudo-F', 'Sample Size'])
+        
+    for i in range(0, numRares):
+        df_wol2_rpca_rare_genome, df_rs210_rpca_rare_genome = rare_multiplier_species(
+                                                                                                                    df_wol2_rpca_rare_genome,
+                                                                                                                         df_rs210_rpca_rare_genome, 
+                                                                                                                         table_genome_rs210, 
+                                                                                                                         table_genome_wol2,
+                                                                                                                         meta, rarefaction, 
+                                                                                                                         metric, decoide_min_feature_count,
+                                                                                                                         permutations=999)
+
+    print('Wol2 RPCA Rare Genome')
+    display(df_wol2_rpca_rare_genome)
+    print(df_wol2_rpca_rare_genome.mean())
+    print()
+    print('RS210 RPCA Rare Genome')
+    display(df_rs210_rpca_rare_genome)
+    print(df_rs210_rpca_rare_genome.mean())
+    
+    return(rs210_rpca_genome, wol2_rpca_genome, df_wol2_rpca_rare_genome, df_rs210_rpca_rare_genome)
