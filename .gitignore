@@ -1,0 +1,27 @@
+#Files removed since turning public
+
+processed_data/*
+qiita_downloads/*
+
+
+### Un-needed files ####
+
+#Intermediate files for decoide
+deicode_*
+temp_vis_output/*
+
+#Coverages for each individual file
+qiita_downloads/qiita15336_prep16181_pangenome/188963_coverages_WoLr2/*
+qiita_downloads/qiita15336_prep16181_pangenome/188968_coverages_RS210/*
+
+#Storage for old attempts
+z_history/*
+
+### Basic GitIgnore ###
+#.gitignore
+
+*.pyc
+*.tar
+*.ipynb_checkpoints
+*.swp
+.DS_Store
