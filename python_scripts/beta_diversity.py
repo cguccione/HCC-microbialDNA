@@ -17,7 +17,7 @@ from skbio.stats.distance import permanova
 #WOL2 Taxonomy
 wol2_taxonomy = q2.Artifact.import_data('Phylogeny[Rooted]', '/Users/cguccion/Dropbox/Storage/HelpfulLabDocs/taxonomy_trees/WOL2/tree.nwk')
 
-def beta_decoide(ft, meta, metric, permutations, decoide_min_feature_count):
+def beta_decoide(ft, meta, metric, permutations, decoide_min_feature_count, return_biplot=False):
     
     '''Calculates beta diversity for unweighted 
     & weighted unifraq
@@ -34,6 +34,10 @@ def beta_decoide(ft, meta, metric, permutations, decoide_min_feature_count):
         The column in sample_meta used to
         calculate beta diversity across 
         samples
+        
+    return_biplot: bool (False)
+        Returns the biplot instead 
+        of the permaonva ouputs 
     
     Returns
     -------
@@ -84,6 +88,9 @@ def beta_decoide(ft, meta, metric, permutations, decoide_min_feature_count):
                                                               metadata=sample_meta.get_column(metric),
                                                               method = 'permanova', pairwise = True,
                                                               permutations=permutations)
+    
+    if return_biplot == True:
+        return(rpca_biplot)
                                                    
     return(beta_result_d)  
 
@@ -172,7 +179,7 @@ def beta_unifraq(ft, sample_meta, metric, permutations):
     
     return(beta_result_uw, beta_result_w)
 
-def all_beta(table_genome_rs210, table_genome_wol2, meta, rarefaction, metric, permutations=999, numRares=10, decoide_min_feature_count=10):
+def all_beta(table_genome_rs210, table_genome_wol2, meta, rarefaction, metric, permutations=999, numRares=10, decoide_min_feature_count=10, return_biplot=False):
     
     '''Convert data into qiime2 objects
     and rarefy if needed
@@ -188,6 +195,10 @@ def all_beta(table_genome_rs210, table_genome_wol2, meta, rarefaction, metric, p
     
     rarefaction(optional): int
         Level to rarefy table to
+        
+    return_biplot: bool (False)
+        Returns the distance matrix instead 
+        of the permaonva ouputs in RPCA
     
     Returns
     -------
@@ -214,9 +225,13 @@ def all_beta(table_genome_rs210, table_genome_wol2, meta, rarefaction, metric, p
     
     ##Call all combinations of Beta Diversity##
     
-    rs210_rpca_genome = beta_decoide(ft_genome_rs210, meta, metric, permutations, decoide_min_feature_count)
+    rs210_rpca_genome = beta_decoide(ft_genome_rs210, meta, metric, permutations, decoide_min_feature_count, return_biplot=return_biplot)
     
-    wol2_rpca_genome = beta_decoide(ft_genome_wol2, meta, metric, permutations, decoide_min_feature_count)
+    wol2_rpca_genome = beta_decoide(ft_genome_wol2, meta, metric, permutations, decoide_min_feature_count, return_biplot=return_biplot)
+    
+    #Added for testing non-rarifed 
+    if numRares == None:
+        return(rs210_rpca_genome, wol2_rpca_genome)
     
     #Rarifed samples should be run 10x times and averaged
     
@@ -343,7 +358,7 @@ def alpha_rare_curve(table, max_depth, meta):
     return(alph_vis)
 
 
-def all_beta_species(table_genome_rs210, table_genome_wol2, meta, rarefaction, metric, permutations=999, numRares=10, decoide_min_feature_count=10):
+def all_beta_species(table_genome_rs210, table_genome_wol2, meta, rarefaction, metric, permutations=999, numRares=10, decoide_min_feature_count=10, return_biplot=False):
     
     '''Convert data into qiime2 objects
     and rarefy if needed
@@ -359,6 +374,8 @@ def all_beta_species(table_genome_rs210, table_genome_wol2, meta, rarefaction, m
     
     rarefaction(optional): int
         Level to rarefy table to
+        
+     
     
     Returns
     -------
@@ -385,9 +402,9 @@ def all_beta_species(table_genome_rs210, table_genome_wol2, meta, rarefaction, m
     
     ##Call all combinations of Beta Diversity##
     
-    rs210_rpca_genome = beta_decoide(ft_genome_rs210, meta, metric, permutations, decoide_min_feature_count)
+    rs210_rpca_genome = beta_decoide(ft_genome_rs210, meta, metric, permutations, decoide_min_feature_count, return_biplot= return_biplot)
     
-    wol2_rpca_genome = beta_decoide(ft_genome_wol2, meta, metric, permutations, decoide_min_feature_count)
+    wol2_rpca_genome = beta_decoide(ft_genome_wol2, meta, metric, permutations, decoide_min_feature_count, return_biplot= return_biplot)
     
     #Rarifed samples should be run 10x times and averaged
     

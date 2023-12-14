@@ -1,3 +1,8 @@
+#Shouldn't need qababra install info
+qadabra/install/*
+qadabra/git_install/*
+
+
 #Files removed since turning public
 
 processed_data/*
