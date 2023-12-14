@@ -3,8 +3,11 @@
 processed_data/*
 qiita_downloads/*
 
-
 ### Un-needed files ####
+
+#Logging /slurm files for birdman
+birdman/*/logs/*
+birdman/*/slurm_out/*
 
 #Intermediate files for decoide
 deicode_*
@@ -25,3 +28,8 @@ z_history/*
 *.ipynb_checkpoints
 *.swp
 .DS_Store
+*.ipynb_checkpoints*
+*.ipynb.checkpoints
+*.nc
+*.log
+*.out

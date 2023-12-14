@@ -24,7 +24,8 @@ conda activate birdman
 
 echo Chunk $SLURM_ARRAY_TASK_ID / $SLURM_ARRAY_TASK_MAX
 
-TABLEID=${group_fn}_qiita15336_prep16181_pangenome_wol2_scrubbed_zebraFilter0.1
+TABLEID=${group_fn}_qiita15336_prep16181_pangenome_rs210_scrubbed_zebraFilter0.1
+#TABLEID=${group_fn}_qiita15336_prep16181_pangenome_wol2_scrubbed_zebraFilter0.1
 TABLE=/panfs/cguccion/22_06_22_HCC_CRC_Amir/HCC-microbialDNA/processed_data/biom/${TABLEID}/feature-table.biom
 OUTDIR=${main_path}/inferences/${TABLEID}
 LOGDIR=${main_path}/logs/${TABLEID}
