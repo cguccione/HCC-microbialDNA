@@ -10,6 +10,12 @@ qiita_downloads/*
 
 ### Un-needed files ####
 
+#Figures
+figures/*
+
+#Average rare
+beta_diversity_avg/*
+
 #Logging /slurm files for birdman
 birdman/*/logs/*
 birdman/*/slurm_out/*
@@ -38,3 +44,4 @@ z_history/*
 *.nc
 *.log
 *.out
+.qzv
