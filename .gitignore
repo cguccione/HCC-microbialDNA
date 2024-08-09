@@ -1,10 +1,15 @@
+python_scripts/beta_diversity-old.py
+
+#Micov testing -- not needed
+micov_testing/*
+
 #Shouldn't need qababra install info
 qadabra/install/*
 qadabra/git_install/*
 
 
 #Files removed since turning public
-
+outputs/*
 processed_data/*
 qiita_downloads/*
 
