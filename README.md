@@ -7,7 +7,7 @@ Host deplete all samples with 47 Pangenomes from the Human Pangenome Project, T2
 - *Output*: Fastq files with just microbial reads
 
 ### Microbial Classification
-Run SHOGUN + Woltka pipeline using RS210 
+Run SHOGUN + Woltka pipeline using RS210 -Clean
 - *Input*: Fastq files with just microbial reads
 - *Output*: Biom/taxonomy table for all samples including blanks
 
@@ -17,12 +17,12 @@ Run [SCRuB](https://www.nature.com/articles/s41587-023-01696-w) to remove any la
 - *Output*: Decontaminated biom/taxonomy table for all biological samples
 
 ## Data Analysis
-### Alpha & Beta Diversity Analysis
-Alpha & Beta diversity analysis using [Qiime2](https://qiime2.org)
+### Beta Diversity Analysis
+Beta diversity analysis using [Qiime2](https://qiime2.org) and RPCA
 - *Input*: Decontaminated biom/taxonomy table for all biological samples with extraneous reads removed
-- *Output*: Alpha & Beta diversity differences across disease groups
+- *Output*: Beta diversity differences across disease groups
 
-### Birdman
-Performing differential abundance using RPCA, Genome data across disease groups data using [Birdman](https://birdman.readthedocs.io/en/latest/).
+### BIRDMAn
+Performing differential abundance using BIRDMAn, Genome data across disease groups data using [Birdman](https://birdman.readthedocs.io/en/latest/).
 - *Input*: Decontaminated biom/taxonomy table for all biological samples with extraneous reads removed
 - *Output*: Top microbial features according to Birdman
