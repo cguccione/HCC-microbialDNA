@@ -16,13 +16,18 @@ Run [SCRuB](https://www.nature.com/articles/s41587-023-01696-w) to remove any la
 - *Input*: Biom/taxonomy table for all samples including blanks
 - *Output*: Decontaminated biom/taxonomy table for all biological samples
 
+### Mismapping Taxa Reduction
+Run [micov](https://github.com/biocore/micov) to determine which taxa may be falsely mapped and remove those taxa: [2_MicovFilter.ipynb](https://github.com/cguccione/HCC-microbialDNA/blob/main/2_MicovFilter.ipynb)
+- *Input*: Decontaminated biom/taxonomy table for all biological samples from SCRuB + SAM files from host depletion
+- *Output*: Decontaminated + mismapped taxa reduction biom/taxonomy table for all biological samples 
+
 ## Data Analysis
 ### Beta Diversity Analysis
 Beta diversity analysis using [Qiime2](https://qiime2.org) and RPCA
-- *Input*: Decontaminated biom/taxonomy table for all biological samples with extraneous reads removed
+- *Input*: Decontaminated + mismapped taxa reduction biom/taxonomy table for all biological samples 
 - *Output*: Beta diversity differences across disease groups
 
 ### BIRDMAn
 Performing differential abundance using BIRDMAn, Genome data across disease groups data using [Birdman](https://birdman.readthedocs.io/en/latest/).
-- *Input*: Decontaminated biom/taxonomy table for all biological samples with extraneous reads removed
+- *Input*: Decontaminated + mismapped taxa reduction biom/taxonomy table for all biological samples 
 - *Output*: Top microbial features according to Birdman
