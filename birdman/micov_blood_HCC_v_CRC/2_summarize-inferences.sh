@@ -1,12 +1,12 @@
 #!/home/cguccion/packages/miniconda3/envs/birdman/bin/python
-#SBATCH --chdir=/panfs/cguccion/22_06_22_HCC_CRC_Amir/HCC-microbialDNA/birdman/HCC_adj_v_tumor
-#SBATCH --partition=short
+#SBATCH --chdir=/panfs/cguccion/22_06_22_HCC_CRC_Amir/HCC-microbialDNA/birdman/blood_HCC_v_CRC
 #SBATCH --mem=8G
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=4
 #SBATCH --time=12:00:00
 #SBATCH --mail-user="cguccion@ucsd.edu"
 #SBATCH --mail-type=ALL
+#SBATCH --job-name=birdman
 
 import glob
 import re
@@ -16,7 +16,7 @@ import pandas as pd
 
 #Just need to change path in chdir above, and in glob command below
 
-for inference_dir in glob.glob('/panfs/cguccion/22_06_22_HCC_CRC_Amir/HCC-microbialDNA/birdman/HCC_adj_v_tumor/inferences/*'):
+for inference_dir in glob.glob('/panfs/cguccion/22_06_22_HCC_CRC_Amir/HCC-microbialDNA/birdman/blood_HCC_v_CRC/inferences/*'):
 
     FEAT_REGEX = re.compile("F\d{4}_(.*).nc")
     omic_ = inference_dir.split('/')[-1]
