@@ -1,3 +1,7 @@
+birdman/old/*
+
+outputs/feature_selection/*
+
 python_scripts/beta_diversity-old.py
 
 #Micov testing -- not needed

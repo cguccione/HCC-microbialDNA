@@ -27,8 +27,11 @@ echo Chunk $SLURM_ARRAY_TASK_ID / $SLURM_ARRAY_TASK_MAX
 #TABLEID=${group_fn}_qiita15336_prep16181_pangenome_rs210_scrubbed_zebraFilter0.1
 #TABLEID=${group_fn}_pese_pangenome_align-RS210_masked_none_scrubbed
 #TABLEID=${group_fn}_pese_pangenome_align-RS210_masked_none_scrubbed_p0.25
-TABLEID=${group_fn}_pese_pangenome_align-RS210_masked_none_scrubbed_micovFilter
-TABLE=/panfs/cguccion/22_06_22_HCC_CRC_Amir/HCC-microbialDNA/processed_data/biom/${TABLEID}/feature-table.biom
+#TABLEID=${group_fn}_pese_pangenome_align-RS210_masked_none_scrubbed_micovFilter
+#TABLE=/panfs/cguccion/22_06_22_HCC_CRC_Amir/HCC-microbialDNA/processed_data/biom/${TABLEID}/feature-table.biom
+
+TABLE=/panfs/cguccion/22_06_22_HCC_CRC_Amir/HCC-microbialDNA/processed_data/biom/blood_HCC_v_CRC_pese_pangenome_align-RS210_masked_none_scrubbed_micovFilter/feature-table.biom
+TABLEID=blood_HCC_v_CRC_pese_pangenome_align-RS210_masked_none_scrubbed_micovFilter
 OUTDIR=${main_path}/inferences/${TABLEID}
 LOGDIR=${main_path}/logs/${TABLEID}
 
