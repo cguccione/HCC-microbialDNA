@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="1440pt" version="1.1" viewBox="0 0 144 1440" width="144pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-09-23T13:21:24.468279</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.4.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1440 
+L 144 1440 
+L 144 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1"/>
+  <g id="axes_2"/>
+  <g id="axes_3">
+   <g id="patch_2">
+    <path d="M 48.436364 1260 
+L 129.6 1260 
+L 129.6 469.309091 
+L 48.436364 469.309091 
+z
+" style="fill:#ffffff;"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="text_1">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(71.637976 1326.962969)rotate(-90)">Mean_HCC</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="text_2">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(112.219794 1326.962969)rotate(-90)">Mean_CRC</text>
+     </g>
+    </g>
+    <g id="text_3">
+     <text style="fill:#262626;font-family:Arial;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 89.018182, 1339.552344)" x="89.018182" y="1339.552344">sample_name</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1">
+      <defs>
+       <path d="M 0 0 
+L 6 0 
+" id="mc2494d2825" style="stroke:#262626;stroke-width:1.25;"/>
+      </defs>
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="489.076364"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 493.080192)" x="139.1" y="493.080192">CRC : G009932335 : d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas asiatica</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="528.610909"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 532.618175)" x="139.1" y="532.618175">CRC : G006517255 : d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Janthinobacterium; s__Janthinobacterium tructae</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="568.145455"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 572.149283)" x="139.1" y="572.149283">CRC : G000400735 : d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Moraxellales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter tandoii</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="607.68"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 611.683828)" x="139.1" y="611.683828">CRC : G003611465 : d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Moraxellales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter tianfuensis</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="647.214545"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 651.218374)" x="139.1" y="651.218374">CRC : G019355975 : d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Moraxellales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter septicus</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_6">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="686.749091"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 690.752919)" x="139.1" y="690.752919">CRC : G014385295 : d__Bacteria; p__Actinobacteria; c__Actinomycetia; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__Bifidobacterium faecale</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_7">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="726.283636"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 730.287464)" x="139.1" y="730.287464">CRC : G004216565 : d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__; g__Leptothrix; s__Leptothrix mobilis</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_8">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="765.818182"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 769.825447)" x="139.1" y="769.825447">CRC : G009380215 : d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Rugamonas; s__Rugamonas aquatica</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_9">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="805.352727"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 809.359993)" x="139.1" y="809.359993">CRC : G014284305 : d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Undibacterium; s__Undibacterium seohonense</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_10">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="844.887273"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 848.891101)" x="139.1" y="848.891101">CRC : G000368025 : d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Moraxellales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter parvus</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_11">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="884.421818"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 888.425646)" x="139.1" y="888.425646">HCC : G008801675 : d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas aeruginosa</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_12">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="923.956364"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 927.960192)" x="139.1" y="927.960192">HCC : G000159115 : d__Bacteria; p__Actinobacteria; c__Actinomycetia; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__Corynebacterium accolens</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_13">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="963.490909"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 967.494737)" x="139.1" y="967.494737">HCC : G003952165 : d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Variovorax; s__Variovorax guangxiensis</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_14">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="1003.025455"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 1007.029283)" x="139.1" y="1007.029283">HCC : G016127395 : d__Bacteria; p__Actinobacteria; c__Actinomycetia; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__Corynebacterium glucuronolyticum</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_15">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="1042.56"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 1046.563828)" x="139.1" y="1046.563828">HCC : G016728645 : d__Bacteria; p__Actinobacteria; c__Actinomycetia; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__Corynebacterium glucuronolyticum</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_16">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="1082.094545"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 1086.098374)" x="139.1" y="1086.098374">HCC : G000159595 : d__Bacteria; p__Actinobacteria; c__Actinomycetia; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__Corynebacterium glucuronolyticum</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_17">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="1121.629091"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 1125.632919)" x="139.1" y="1125.632919">HCC : G001552595 : d__Bacteria; p__Actinobacteria; c__Actinomycetia; o__Corynebacteriales; f__Nocardiaceae; g__Rhodococcus; s__Rhodococcus erythropolis</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_18">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="1161.163636"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 1165.167464)" x="139.1" y="1165.167464">HCC : G902363055 : d__Bacteria; p__Firmicutes; c__Clostridia; o__Eubacteriales; f__; g__Gemmiger; s__Gemmiger formicilis</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_19">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="1200.698182"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 1204.70201)" x="139.1" y="1204.70201">HCC : G016889225 : d__Bacteria; p__Actinobacteria; c__Actinomycetia; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__Corynebacterium glucuronolyticum</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_20">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="129.6" xlink:href="#mc2494d2825" y="1240.232727"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="fill:#262626;font-family:Arial;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:start;" transform="rotate(-0, 139.1, 1244.236555)" x="139.1" y="1244.236555">HCC : G000372725 : d__Eukaryota; p__Haptophyta; c__; o__Isochrysidales; f__Noelaerhabdaceae; g__Emiliania; s__Emiliania huxleyi</text>
+     </g>
+    </g>
+    <g id="text_24">
+     <text style="fill:#262626;font-family:Arial;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-90, 1037.148281, 864.654545)" x="1037.148281" y="864.654545">mean_taxonomy_def</text>
+    </g>
+   </g>
+   <g id="QuadMesh_1">
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 469.309091 
+L 89.018182 469.309091 
+L 89.018182 508.843636 
+L 48.436364 508.843636 
+L 48.436364 469.309091 
+" style="fill:none;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 469.309091 
+L 129.6 469.309091 
+L 129.6 508.843636 
+L 89.018182 508.843636 
+L 89.018182 469.309091 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 508.843636 
+L 89.018182 508.843636 
+L 89.018182 548.378182 
+L 48.436364 548.378182 
+L 48.436364 508.843636 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 508.843636 
+L 129.6 508.843636 
+L 129.6 548.378182 
+L 89.018182 548.378182 
+L 89.018182 508.843636 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 548.378182 
+L 89.018182 548.378182 
+L 89.018182 587.912727 
+L 48.436364 587.912727 
+L 48.436364 548.378182 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 548.378182 
+L 129.6 548.378182 
+L 129.6 587.912727 
+L 89.018182 587.912727 
+L 89.018182 548.378182 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 587.912727 
+L 89.018182 587.912727 
+L 89.018182 627.447273 
+L 48.436364 627.447273 
+L 48.436364 587.912727 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 587.912727 
+L 129.6 587.912727 
+L 129.6 627.447273 
+L 89.018182 627.447273 
+L 89.018182 587.912727 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 627.447273 
+L 89.018182 627.447273 
+L 89.018182 666.981818 
+L 48.436364 666.981818 
+L 48.436364 627.447273 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 627.447273 
+L 129.6 627.447273 
+L 129.6 666.981818 
+L 89.018182 666.981818 
+L 89.018182 627.447273 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 666.981818 
+L 89.018182 666.981818 
+L 89.018182 706.516364 
+L 48.436364 706.516364 
+L 48.436364 666.981818 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 666.981818 
+L 129.6 666.981818 
+L 129.6 706.516364 
+L 89.018182 706.516364 
+L 89.018182 666.981818 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 706.516364 
+L 89.018182 706.516364 
+L 89.018182 746.050909 
+L 48.436364 746.050909 
+L 48.436364 706.516364 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 706.516364 
+L 129.6 706.516364 
+L 129.6 746.050909 
+L 89.018182 746.050909 
+L 89.018182 706.516364 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 746.050909 
+L 89.018182 746.050909 
+L 89.018182 785.585455 
+L 48.436364 785.585455 
+L 48.436364 746.050909 
+" style="fill:#f8d7c0;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 746.050909 
+L 129.6 746.050909 
+L 129.6 785.585455 
+L 89.018182 785.585455 
+L 89.018182 746.050909 
+" style="fill:#f9ddc9;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 785.585455 
+L 89.018182 785.585455 
+L 89.018182 825.12 
+L 48.436364 825.12 
+L 48.436364 785.585455 
+" style="fill:#f47c55;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 785.585455 
+L 129.6 785.585455 
+L 129.6 825.12 
+L 89.018182 825.12 
+L 89.018182 785.585455 
+" style="fill:#f58b63;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 825.12 
+L 89.018182 825.12 
+L 89.018182 864.654545 
+L 48.436364 864.654545 
+L 48.436364 825.12 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 825.12 
+L 129.6 825.12 
+L 129.6 864.654545 
+L 89.018182 864.654545 
+L 89.018182 825.12 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 864.654545 
+L 89.018182 864.654545 
+L 89.018182 904.189091 
+L 48.436364 904.189091 
+L 48.436364 864.654545 
+" style="fill:#f6a67e;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 864.654545 
+L 129.6 864.654545 
+L 129.6 904.189091 
+L 89.018182 904.189091 
+L 89.018182 864.654545 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 904.189091 
+L 89.018182 904.189091 
+L 89.018182 943.723636 
+L 48.436364 943.723636 
+L 48.436364 904.189091 
+" style="fill:#f5976e;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 904.189091 
+L 129.6 904.189091 
+L 129.6 943.723636 
+L 89.018182 943.723636 
+L 89.018182 904.189091 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 943.723636 
+L 89.018182 943.723636 
+L 89.018182 983.258182 
+L 48.436364 983.258182 
+L 48.436364 943.723636 
+" style="fill:#e13342;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 943.723636 
+L 129.6 943.723636 
+L 129.6 983.258182 
+L 89.018182 983.258182 
+L 89.018182 943.723636 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 983.258182 
+L 89.018182 983.258182 
+L 89.018182 1022.792727 
+L 48.436364 1022.792727 
+L 48.436364 983.258182 
+" style="fill:#faebdd;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 983.258182 
+L 129.6 983.258182 
+L 129.6 1022.792727 
+L 89.018182 1022.792727 
+L 89.018182 983.258182 
+" style="fill:none;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 1022.792727 
+L 89.018182 1022.792727 
+L 89.018182 1062.327273 
+L 48.436364 1062.327273 
+L 48.436364 1022.792727 
+" style="fill:#fae6d6;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 1022.792727 
+L 129.6 1022.792727 
+L 129.6 1062.327273 
+L 89.018182 1062.327273 
+L 89.018182 1022.792727 
+" style="fill:none;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 1062.327273 
+L 89.018182 1062.327273 
+L 89.018182 1101.861818 
+L 48.436364 1101.861818 
+L 48.436364 1062.327273 
+" style="fill:#f8d7c0;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 1062.327273 
+L 129.6 1062.327273 
+L 129.6 1101.861818 
+L 89.018182 1101.861818 
+L 89.018182 1062.327273 
+" style="fill:none;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 1101.861818 
+L 89.018182 1101.861818 
+L 89.018182 1141.396364 
+L 48.436364 1141.396364 
+L 48.436364 1101.861818 
+" style="fill:#f7cfb3;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 1101.861818 
+L 129.6 1101.861818 
+L 129.6 1141.396364 
+L 89.018182 1141.396364 
+L 89.018182 1101.861818 
+" style="fill:none;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 1141.396364 
+L 89.018182 1141.396364 
+L 89.018182 1180.930909 
+L 48.436364 1180.930909 
+L 48.436364 1141.396364 
+" style="fill:#f7c6a6;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 1141.396364 
+L 129.6 1141.396364 
+L 129.6 1180.930909 
+L 89.018182 1180.930909 
+L 89.018182 1141.396364 
+" style="fill:none;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 1180.930909 
+L 89.018182 1180.930909 
+L 89.018182 1220.465455 
+L 48.436364 1220.465455 
+L 48.436364 1180.930909 
+" style="fill:#f8dcc7;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 1180.930909 
+L 129.6 1180.930909 
+L 129.6 1220.465455 
+L 89.018182 1220.465455 
+L 89.018182 1180.930909 
+" style="fill:none;"/>
+    <path clip-path="url(#p834a37a325)" d="M 48.436364 1220.465455 
+L 89.018182 1220.465455 
+L 89.018182 1260 
+L 48.436364 1260 
+L 48.436364 1220.465455 
+" style="fill:#f3714d;"/>
+    <path clip-path="url(#p834a37a325)" d="M 89.018182 1220.465455 
+L 129.6 1220.465455 
+L 129.6 1260 
+L 89.018182 1260 
+L 89.018182 1220.465455 
+" style="fill:none;"/>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_3">
+    <path d="M 2.88 288 
+L 10.08 288 
+L 10.08 28.8 
+L 2.88 28.8 
+z
+" style="fill:#ffffff;"/>
+   </g>
+   <g id="patch_4">
+    <path clip-path="url(#p2063967494)" d="M 2.88 288 
+L 2.88 286.9875 
+L 2.88 29.8125 
+L 2.88 28.8 
+L 10.08 28.8 
+L 10.08 29.8125 
+L 10.08 286.9875 
+L 10.08 288 
+L 10.08 288 
+z
+" style="fill:#ffffff;stroke:#ffffff;stroke-linejoin:miter;stroke-width:0.01;"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_21">
+     <g id="line2d_21">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="10.08" xlink:href="#mc2494d2825" y="288"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <!-- $\mathdefault{10^{0}}$ -->
+      <g style="fill:#262626;" transform="translate(19.58 293.671875)">
+       <text>
+        <tspan style="font-family:Arial;font-size:11px;font-style:regular;font-weight:regular;" x="0 6.117676" y="-0.799312500000001">10</tspan>
+        <tspan style="font-family:Arial;font-size:7.7px;font-style:regular;font-weight:regular;" x="12.427009" y="-8.465625">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_22">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="10.08" xlink:href="#mc2494d2825" y="158.4"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <!-- $\mathdefault{10^{1}}$ -->
+      <g style="fill:#262626;" transform="translate(19.58 164.071875)">
+       <text>
+        <tspan style="font-family:Arial;font-size:11px;font-style:regular;font-weight:regular;" x="0 6.117676" y="-0.799312500000001">10</tspan>
+        <tspan style="font-family:Arial;font-size:7.7px;font-style:regular;font-weight:regular;" x="12.427009" y="-8.465625">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_23">
+      <g>
+       <use style="fill:#262626;stroke:#262626;stroke-width:1.25;" x="10.08" xlink:href="#mc2494d2825" y="28.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <!-- $\mathdefault{10^{2}}$ -->
+      <g style="fill:#262626;" transform="translate(19.58 34.471875)">
+       <text>
+        <tspan style="font-family:Arial;font-size:11px;font-style:regular;font-weight:regular;" x="0 6.117676" y="-0.799312500000001">10</tspan>
+        <tspan style="font-family:Arial;font-size:7.7px;font-style:regular;font-weight:regular;" x="12.427009" y="-8.465625">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_24">
+      <defs>
+       <path d="M 0 0 
+L 4 0 
+" id="m6433b884d2" style="stroke:#262626;"/>
+      </defs>
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="248.986513"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_25">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="226.165085"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_26">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="209.973025"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_27">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="197.413487"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_28">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="187.151598"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_29">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="178.475294"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_30">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="170.959538"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_31">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="164.330171"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_32">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="119.386513"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_33">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="96.565085"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_34">
+     <g id="line2d_34">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="80.373025"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_35">
+     <g id="line2d_35">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="67.813487"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_36">
+     <g id="line2d_36">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="57.551598"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_37">
+     <g id="line2d_37">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="48.875294"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_38">
+     <g id="line2d_38">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="41.359538"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_39">
+     <g id="line2d_39">
+      <g>
+       <use style="fill:#262626;stroke:#262626;" x="10.08" xlink:href="#m6433b884d2" y="34.730171"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <image height="259" id="imagecb066d59e5" transform="scale(1 -1)translate(0 -259)" width="7" x="3" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAAcAAAEDCAYAAAD5tB5xAAABGklEQVR4nO2Z6wnDMAyEnZL9N+wE3aBQqxPoM5y4yCn13+Nesgk2Od6vZ4xknWN+MmycIyaAE8CQmQvPf9pSz45Amw2hMCFToN2G0BDokSLFQJw2/S52je/6QDFlT+5pqqLLElOuEg2eN+vpCiR7eqoEH01ZttAzxbpkTUwAO5g6OOKQZWWmyTPfzmVaj6zccyKTZR1V+LJUSEuBtpNlZm5Z8iTZGJiWAhGTZfVAxCzI5tiypxpoHiZZZMqeLAugSZY9TbLIvJXn4oDBraYiSyBXobum7nkr2ZB3pRJIPwnXMyc9ZvSetsHn4OKyRCC+6Gz7qT4xezzlzfYcsI4qBdmW2f4ME3/buAaPzEKVhkC7DUFPq892IZuvLzmd6DRPZrmjAAAAAElFTkSuQmCC" y="-29"/>
+   <g id="LineCollection_1"/>
+   <g id="patch_5">
+    <path d="M 2.88 288 
+L 2.88 286.9875 
+L 2.88 29.8125 
+L 2.88 28.8 
+L 10.08 28.8 
+L 10.08 29.8125 
+L 10.08 286.9875 
+L 10.08 288 
+z
+" style="fill:none;"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p834a37a325">
+   <rect height="790.690909" width="81.163636" x="48.436364" y="469.309091"/>
+  </clipPath>
+  <clipPath id="p2063967494">
+   <rect height="259.2" width="7.2" x="2.88" y="28.8"/>
+  </clipPath>
+ </defs>
+</svg>
